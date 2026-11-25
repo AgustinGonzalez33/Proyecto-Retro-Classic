@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="icon" href="./assets/logos/icono.webp" type="image/webp">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body class="body">
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+            <a href="./index.html">
+            <img class="logo-header" src="./assets/logos/logoretro.png" alt="logo de la tienda">
+            </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./pages/sobre-mi.html">Sobre mí</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./pages/proyectos.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./pages/faq.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./pages/contacto.html">Contactos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container-fluid">
+        <div class="carrusel">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="./assets/home/estanteria.jpg" class="d-block w-100" alt="estanteria de la tienda">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="assets/home/juegoss.jpg" class="d-block w-100" alt="juegos de la tienda">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="assets/home/tienda.png" class="d-block w-100" alt="tienda desde fuera">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="assets/home/consolas.webp" class="d-block w-100" alt="consola retro">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <section class="grid1">
+            <h1 class="title-index">Retro Classic</h1>
+            <img src="./assets/logos/logoretro.png" class="img-consola" alt="logo de la pagina">
+            
+            <p class="p1">Retro Classic es una tienda de videojuegos, consolas y videojuegos retros, que se encuentra ubicada en la ciudad de Buenos Aires, Argentina.</p>
+            <h2 class="stitle-index">¿Qué es Retro Classic?</h2>
+            <p class="p2">Somos un local que abarca todo tipo de jugadores: los que buscan el último lanzamiento, y los que quieren revivir un clásico. Nos especializamos en la restauración profesional de consolas de todas las épocas, asegurando un rendimiento impecable tanto para coleccionistas exigentes como para jugadores casuales. Desde el mantenimiento preventivo hasta la reparación de hardware, cuidamos tu equipo para que solo te preocupes por jugar.</p>
+            
+        </section>
+            <section class="tienda-section">
+                    <h3 class="title3">¿Qué buscar en nuestra tienda?</h3>
+                    <ul class="ul-tienda">
+                        <li>Consolas actuales: Playstation, Xbox y Nintendo</li>
+                        <li>Consolas retros</li>
+                        <li>Juegos físicos</li>
+                        <li>Juegos digitales</li>
+                        <li>Servicio de limpieza y reparación para consolas</li>
+                    </ul>
+                    <img class= "img-tienda1" src="./assets/home/jugandoconsola.webp" alt="foto de consolas retro">
+                    <img class= "img-tienda2" src="./assets/home/reparacion.png" alt="foto">
+            </section>
+            
+    </main>
+    
+    <footer class="footer">
+        <div class="footer-contenido">
+            <p class="footer-text">&copy; Agustín González - Estudiante de Desarrollo Web</p>
+            <ul class="menu-redes">
+                <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"><img src="./assets/logos/fblogo.webp" alt="facebook logo" class="redes"></a></li>
+                <li><a href="https://x.com/home" target="_blank" rel="noopener"><img src="./assets/logos/xlogo.webp" alt="x logo" class="redes"></a></li>
+                <li><a href="https://www.instagram.com/?hl=en" target="_blank" rel="noopener"><img src="./assets/logos/instagramlogo.webp" alt="instagram logo" class="redes"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
+</body> <!-- Shift+alt+A para comentarios! -->
+</html> 
