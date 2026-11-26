@@ -148,6 +148,9 @@ a{
 
 /* //////////////INDEX GRID2//////////// */
 
+.carrusel{
+    padding-top: 20px;
+}
 
 .tienda-section{
     margin: 15px;
@@ -365,6 +368,8 @@ a{
 }
 .navbar-nav{
     padding: 10px;
+    justify-content: end;
+    align-items: end;
 }
 .accordion{
     width: 100%;
@@ -515,12 +520,12 @@ a{
    /*  ////////////TABLET///////////// */
    /* /////////////////INDEX////////////// */
 @media (min-width: 568px) and (max-width: 991px){
-    .header{
+/*     .header{
         display: flex;
         flex-direction: row;
         padding: 0px;
-        align-items: center; 
-    } 
+        align-items: center;  */
+    
         .logo-header{
         width: 25vw;
         height: auto;
